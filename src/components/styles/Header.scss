@@ -1,3 +1,18 @@
-h1 {
-    color: blue;
+header {
+    background: linear-gradient(90deg, rgba(255,255,255,1) 0%, rgba(255,255,255,1) 30%, rgba(4,63,103,1) 100%);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    border-bottom: 2px solid #043f67;
+    .logo {
+        width: 20%;
+        height: auto;
+    }
+    .welcomeMessage {
+        color: white;
+        spam {
+            font-weight: bolder;
+        }
+    }
 }

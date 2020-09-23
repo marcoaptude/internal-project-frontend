@@ -1,9 +1,13 @@
 import React from 'react';
 import './styles/Header.scss';
+import Logo from '../assets/aptude_logo.jpg';
 
 const Header = () => {
     return ( 
-        <h1>HEADER</h1>
+        <header>
+            <img src={Logo} alt="" className="logo"/>
+            <p className="welcomeMessage">Welcome <span>John</span></p>
+        </header>
     );
 }
  

@@ -1,0 +1,24 @@
+.login__container {
+    display: flex;
+    height: 70vh;
+    .login__form__container {
+        width: 30%;
+        margin: auto;
+        border: 2px solid #043f67;
+        border-radius: 20px;
+        background-color: #9bb2c2;
+        background-color: white;
+        padding: 20px;
+        @media (max-width: 375px) {
+            width: 70%;
+        }
+        @media (max-width: 425px) {
+            width: 50%;
+        }
+        form {
+            display: flex;
+            flex-direction: column;
+        }
+    }
+}
+
